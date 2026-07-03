@@ -10,8 +10,12 @@ print("My name is Your Name")
 # Write three print statements that display:
 # Line 1: Your name
 # Line 2: Your age
-# Line 3: Your favorite hobbyๅ
+# Line 3: Your favorite hobby
 # Write your code here:
+
+print("My name is Chanisa")
+print("I am 20 years old")
+print("My favorite hobby is baabminton")
 
 
 # Exercise 4: Print with Different Content
@@ -29,11 +33,13 @@ print("My name is Your Name")
 print("First line")
 print("Second line")
 print("Third", "line", "with", "multiple", "arguments")
+print("My expected gpa of this term is" , 2.5)
+print(5 * 2.0)
 
 # Exercise 6: Comments Practice
 # Add comments above each print statement explaining what it does
 
-# 
+#
 print("Welcome to Python programming!")
 
 # 
