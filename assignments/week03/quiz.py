@@ -9,6 +9,16 @@ age = int(input("Enter age: "))
 
 # Your code here:
 
+if age >= 60:
+    print("Senior")
+elif age >= 20:
+    print("Adult")
+elif age >= 13:
+    print("Teenager")
+elif age >= 0:
+    print("Child")
+else:
+    print("Invalid age")
 
 
 # Complete this ATM simulation
