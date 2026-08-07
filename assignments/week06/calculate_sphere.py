@@ -17,7 +17,7 @@ print(f"10 + 7 = {sum2}")
 print(f"Sum of both results: {sum1 + sum2}")
 print()
 
-# ======================================================
+# =======================================================
 # Example 1: Function that returns a value
 def calculate_sphere(radius):
     """Calculates the volume of a sphere"""
