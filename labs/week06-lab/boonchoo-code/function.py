@@ -15,14 +15,14 @@ def say_hello():
 
 # Calling the function
 print("Calling say_hello():")
-say_hello()
+say_hello() # Function calling การเรียกใช้ฟังก์ชัน
 print()
 
 # Example 2: Function that performs a task
 def draw_separator():
     """Draws a line separator"""
     print("-" * 40)
-
+# Function ไม่รับ Parameters 
 draw_separator()
 print("This is between separators")
 draw_separator()
@@ -77,7 +77,7 @@ print("\n=== PART 3: FUNCTIONS WITH RETURN VALUES ===")
 def add_numbers(a, b):
     """Adds two numbers and returns the result"""
     result = a + b
-    return result
+    return result 
 
 print("Using functions that return values:")
 sum1 = add_numbers(5, 3)
