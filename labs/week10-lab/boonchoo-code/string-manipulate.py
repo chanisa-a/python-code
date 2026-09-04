@@ -1,3 +1,5 @@
+# ประเภทของตัวแปรหรือข้อมูลใน python ==> int,float,boolen,string
+
 # Python String Examples Based on Course Slides
 # Complete working examples with explanations
 
@@ -215,16 +217,17 @@ print(f"Ends with 'python': {text.endswith('python')}")
 
 # Modification methods
 print(f"Replace 'python' with 'java': {text.replace('python', 'java')}")
+# Replace 'python' with 'java':
 words = text.split()
-print(f"Split into words: {words}")
+print(f"  t into words: {words}")
 print(f"Join with '-': {'-'.join(words)}")
 
 # Validation methods
 test_str = "Hello123"
 print(f"\nValidation methods for '{test_str}':")
-print(f"isalnum(): {test_str.isalnum()}")
-print(f"isalpha(): {test_str.isalpha()}")
-print(f"isdigit(): {test_str.isdigit()}")
+print(f"isalnum(): {test_str.isalnum()}") # True เพราะในนี้ไม่มีอักขระพิเศษ
+print(f"isalpha(): {test_str.isalpha()}") # False เพราะในนี้ไม่ได้มีเฉพาะตัวอักษร
+print(f"isdigit(): {test_str.isdigit()}") # False เพราะในนี้ไม่ได้มีเฉพาะตัวเลข 
 print(f"isupper(): {test_str.isupper()}")
 print(f"islower(): {test_str.islower()}")
 
