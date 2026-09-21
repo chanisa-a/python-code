@@ -1,0 +1,12 @@
+text = input("ป้อนคำ: ")
+
+cleaned = text.lower()
+
+reversed_text = cleaned[::-1]
+
+if cleaned == reversed_text:
+    print("Yes")
+else:
+    print("No")
+
+    
