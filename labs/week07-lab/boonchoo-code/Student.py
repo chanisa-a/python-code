@@ -1,6 +1,7 @@
 class Student:
     """A simple Student class"""
-    
+
+    # CONSTRUCTOR METHOD
     def __init__(self, name, age, student_id):
         self.name = name           # Instance attribute
         self.age = age            # Instance attribute
@@ -23,7 +24,7 @@ class Student:
         else:
             return "No courses enrolled yet."
 
-# Creating objects (instances)
+# Creating objects (instances) การสร้างวัตถุ การเอาตารางมาใช้
 student1 = Student("Alice", 20, "S001")
 student2 = Student("Bob", 19, "S002")
 student3 = Student("Choo",25,"S003")
@@ -34,5 +35,6 @@ print(student1.add_course("Python Programming"))
 print(student1.add_course("Data Structures"))
 print(student1.show_courses())
 
+
 print(student2.intruduce())
-print(student2.add_course(3.52))
+print(student2.add_course(3.78))
