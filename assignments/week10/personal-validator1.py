@@ -30,17 +30,16 @@ Phone: +91-9876543210
 """
 
 print("=== PERSONAL INFORMATION VALIDATOR ===")
-name = input("Enter your name:")
+name = input("Enter our name:")
 age = input("Enter your age:")
-phone_number = input ("Enter your phone number:")
+phone_number = input("Enter your phone number:")
 
-# name validation 
-nameFlag = True
+nameflag = True
 for char in name:
     if char.isalpha() or char == " ":
         nameFlag = False
     else:
-        nameFlag = False
+        nameflag = False
 
 ageFlag = True
 if int(age) < 18 or int(age) > 65:
@@ -57,27 +56,24 @@ else:
 
 print("Validation Results:")
 if nameFlag:
-    print("Name: Valid (contains only letters and spaces)")
+    print("Name: Valid (contains only letters and spaces")
 else:
     print("Name: Invalid (not contains only letters and spaces)")
 
 if ageFlag:
     print(f"Age: Valid ({age} years old)")
 else:
-    print("Age: Invalid (less than 18 or more than 65)")
+    print("Age: Invalid (less than 18 or more then 65)")
 
 if phoneFlag:
     print("Phone: Valid (10-digit number)")
 
 print("Formetted Information:")
-print("Name:" , name.upper() , name.lower() , name.capitalize())
+print("Name:" , name.upper(), name.lower(), name.capitalize())
 if int(age) >= 18 and int(age) <= 30:
     print("Age Group: Young Adult")
 else:
     print("Age Group: not Young Adult")
 
 print("Phone: +66-%s" % phone_number)
-
-
-
 
